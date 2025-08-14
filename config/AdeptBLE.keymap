@@ -73,7 +73,7 @@
     device_layer {
       display-name = "Device";
       bindings = <
-        &bootloader &trans &trans &trans
+        &bootloader &trans &trans &out OUT_TOG
         &trans                    &bt BT_CLR
       >;
     };
